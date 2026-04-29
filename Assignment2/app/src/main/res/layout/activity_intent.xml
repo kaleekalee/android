@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FF5722"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My App"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter URL"
+        android:padding="12dp"
+        android:inputType="textUri"/>
+
+    <Button
+        android:id="@+id/implicitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implicit Intent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/explicitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explicit Intent"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

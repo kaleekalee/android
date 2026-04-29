@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_notification"
+        android:title="Notification"/>
+
+    <item
+        android:id="@+id/menu_browser"
+        android:title="Browse"/>
+
+    <item
+        android:id="@+id/menu_intent"
+        android:title="Implicit &amp; Explicit"/>
+
+    <item
+        android:id="@+id/menu_sharedpref"
+        android:title="Shared Preferences"/>
+
+</menu>

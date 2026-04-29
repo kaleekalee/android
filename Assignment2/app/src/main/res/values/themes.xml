@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.Assignment2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary colors (optional but recommended) -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorOnSecondary">#000000</item>
+
+    </style>
+
+    <style name="Theme.Assignment2" parent="Base.Theme.Assignment2" />
+
+</resources>
